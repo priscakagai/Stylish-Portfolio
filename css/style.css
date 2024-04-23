@@ -6,14 +6,18 @@
 
 .header {
   background-image: url(../img/bg-masthead.jpg);
-  height: 150vh;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   align-content: center;
 }
 .header h1 {
   font-size: 50px;
   margin-bottom: 20px;
-  padding-top: 400px;
+  padding-top: 50px;
 }
 .header p {
   font-size: 19px;
@@ -21,28 +25,30 @@
 }
 .header button {
   border-radius: 5px;
-  border: 0px solid blue;
+  border: 0px solid royalblue;
   color: white;
-  background-color: blue;
+  background-color: royalblue;
   padding: 15px 20px;
 }
 
 .stylish {
-  height: 70vh;
+  height: 60vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   align-content: center;
-  padding-top: 100px;
+  padding-top: -10px;
 }
 .stylish h2 {
   font-size: 30px;
   margin-bottom: 20px;
-  padding-top: 90px;
+  padding-top: 10px;
   margin-top: auto;
 }
 .stylish p {
   font-size: 17px;
   margin-bottom: 40px;
   margin-top: 20px;
+  color: #757474;
 }
 .stylish button {
   border: 0px solid black;
@@ -60,12 +66,17 @@
   flex-wrap: wrap;
   color: white;
   position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .services #heading {
+  font-size: 15px;
   color: gold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .services h2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .services .offers {
   display: flex;
@@ -95,10 +106,14 @@
   height: 30px;
 }
 .services .offer h3 {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .services .offer p {
-  font-size: 20px;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .website {
@@ -107,12 +122,13 @@
   text-align: center;
   align-content: center;
   justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .website h2 {
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 40px;
-  padding-top: 250px;
+  padding-top: 30px;
 }
 .website button {
   border: 0px solid royalblue;
@@ -128,23 +144,27 @@
   position: relative;
   align-content: center;
   margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .portfolio h2 {
-  font-size: 25px;
+  font-size: 50px;
   text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .portfolio h3 {
   font-size: 15px;
   text-align: center;
   color: gold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .project {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   justify-content: center;
   margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .image {
@@ -160,6 +180,7 @@
   color: white;
   justify-content: center;
   text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .image > img {
   width: 100%;
@@ -168,19 +189,24 @@
      object-fit: contain;
 }
 
+.image h4 {
+  margin-bottom: 10px;
+}
+
 .buttons {
   background-color: royalblue;
   height: 60vh;
   text-align: center;
-  align-content: center;
   justify-content: center;
-  position: relative;
+  align-items: center;
+  padding-top: 11%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .buttons h2 {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  padding-top: 120px;
+  font-size: 25px;
+  margin-bottom: 14px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .buttons #click {
   position: absolute;
@@ -188,9 +214,9 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  left: 520px;
-  margin: auto;
-  margin-top: 30px;
+  left: 530px;
+  margin: 0;
+  margin-top: 10px;
   color: black;
   width: 130px;
   height: 50px;
@@ -206,9 +232,9 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  right: 520px;
-  margin: auto;
-  margin-top: 30px;
+  right: 530px;
+  margin: 0;
+  margin-top: 10px;
   color: white;
   width: 130px;
   height: 50px;
@@ -221,7 +247,9 @@
 
 .map {
   background-image: url(../img/map.jpeg);
-  height: 50vh;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .icons {
@@ -229,6 +257,7 @@
   padding: 5% 40%;
   align-items: center;
   justify-content: space-around;
+  padding-top: 30px;
 }
 .icons .img {
   display: flex;
@@ -237,7 +266,7 @@
   height: 80px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 100%;
   border: 1px solid royalblue;
 }
@@ -245,9 +274,33 @@
   height: 30px;
 }
 
-.end {
+.footer {
+  color: grey;
   text-align: center;
+  align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
-  padding-top: 200px;
+  margin-bottom: 20px;
+  margin-top: -70px;
+  padding-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+  background-color: black;
+  opacity: 50%;
+  width: 5%;
+  border-radius: 3px;
+  height: 35px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.white {
+  color: white;
+  height: 3px;
+  margin-bottom: 4px;
+  background-color: white;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
